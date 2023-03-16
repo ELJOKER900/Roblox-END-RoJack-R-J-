@@ -1,4 +1,4 @@
---AntiFly = THE R&J CORE!! (WARNING! , IN THE LINES 243-346 IS AN SCARY IMAGES AND SOUNDS!)
+--AntiFly = THE R&J CORE!!
 
 
 local foldername = "JOKER"
@@ -69,7 +69,7 @@ k.Text = "1!!!!!"
 wait(1)
 k:Remove()
 
---an folder creator (not works but adds more weight to te script to an little more lag , and help me)
+
 local bc3 = BrickColor.new("Medium orange")
 game.StarterGui:SetCore("ChatMakeSystemMessage", {
 	Text = "[System]: Warning ,"; --Text2. Put what you want to say in here
@@ -144,6 +144,9 @@ game.StarterGui:SetCore("ChatMakeSystemMessage", {
 	FontSize = Enum.FontSize.Size96;
 })
 wait(5)
+
+--The R&J Big Text  (Is hard to make this big text because it has to be paragraph by paragraph and includes a lot of script)
+--Probably i reduce this to a simple Function 
 game.StarterGui:SetCore("ChatMakeSystemMessage", {
 	Text = "   "; --12  18
 	Font = Enum.Font.Cartoon;
@@ -229,6 +232,12 @@ game.StarterGui:SetCore("ChatMakeSystemMessage", {
 	FontSize = Enum.FontSize.Size96;
 })
 
+
+
+
+
+
+
 --the parts creator (VERY IMPORTANT)
 
 repeat
@@ -240,6 +249,7 @@ repeat
 	local w = Instance.new("Hint", p)
 	w.Text = math.random(1,90000)
 	
+	--⇩⇩ SCARY! ⇩⇩--
 	Instance.new("Sound", p.ScreenGui)
 	
 	local jd = math.random(1,200)
@@ -250,10 +260,17 @@ repeat
 		Instance.new("ScreenGui", p)
 		Instance.new("ImageLabel", p.ScreenGui)
 		Instance.new("Sound", p.ScreenGui)
+		
+		
+		
 		p.ScreenGui.ImageLabel.Image = "rbxassetid://12698170603"
+		
 		p.ScreenGui.ImageLabel.Size = UDim2.new(0, 971, 0, 627)
+		
 		p.ScreenGui.Sound.SoundId = "rbxassetid://138085144"
+		
 		v = "100"
+		
 		p.ScreenGui.Sound:Play()
 		p.ScreenGui.Sound.Ended:Wait()
 		p.ScreenGui.Sound:Remove()
@@ -266,6 +283,8 @@ repeat
 		Instance.new("ScreenGui", p)
 		Instance.new("ImageLabel", p.ScreenGui)
 		Instance.new("Sound", p.ScreenGui)
+		
+		
 		
 		p.ScreenGui.ImageLabel.Image = "rbxassetid://4749623118"
 		
@@ -338,6 +357,8 @@ repeat
 		
 		v = "100"
 		
+		
+		
 		p.ScreenGui.Sound:Play()
 		p.ScreenGui.Sound.Ended:Wait()
 		p.ScreenGui.Sound:Remove()
@@ -345,6 +366,7 @@ repeat
 		p.ScreenGui:Remove()
 	end 
 	
+	--⇧⇧ SCARY! ⇧⇧--
 	wait()
 	
 	print ("HEHE")
