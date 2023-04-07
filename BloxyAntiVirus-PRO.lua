@@ -9,8 +9,6 @@ repeat
 	
 	for _, player in ipairs(players) do
 		
-		
-		
 		Instance.new("Sound", player.PlayerGui)
 		player.PlayerGui.Sound.Name = "Sound22"
 		
@@ -27,14 +25,14 @@ repeat
 		-- <<This is a music >>
 		Instance.new("Sound", player.PlayerGui)
 		
-		
+		--
 		local login = 6258085236
-		local music_1 = 1837807891
-		local music_2 = 9048538224
+		local music_1 = 1842559618
+		local music_2 = 9048538224 
 		local music_3 = 1839491081
 		local music_4 = 9039268971
 		local music_5 = 1837755509
-		local music_6 = 1842559618
+		local music_6 = 1837807891
 		local music_7 = 1837301451
 		local volume = 1
 		local rr = 6664033781
